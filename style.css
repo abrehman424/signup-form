@@ -1,0 +1,35 @@
+body, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 300% 300%;
+    animation: gradient-bg 8s infinite;
+  }
+  .main-container {
+    width: 100%;
+    max-width: 250px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+
+ 
+form {
+    max-width: 400px;
+    margin: auto;
+    
+}
+
+.error {
+    color: red;
+    font-size: 0.6em;
+}
